@@ -1,0 +1,41 @@
+Git config -h = Gives you a rundown of the commands
+
+Gitinit = Makes the current working directory into a git repo
+
+touch “file name” = Creates a new file
+
+Code “file name” = Can create and or edit a file
+
+We can make files within the terminal using “code” and then the name of the file - index.html for example
+
+Mv “old name” “new name” = We can rename files using the mv command and stating the old name of a file and then the new name
+
+Pwd = Present working directory
+
+Cd = change directory (specify path, you must specify the path)
+
+Mkdir = make directory
+
+Git commit -m”” = Commit to local repo with message
+
+Git push = To push the commits to Github repo
+
+Git add (name of modified file) = To stage modified files
+
+Git add -A = Add all files to staging
+
+Git rm —cached “file name” = Remove specific file from staging area
+
+Git rm -r —cached = Remove all files from staging area
+
+Git log = All the commits made
+
+Git diff = Gives you the difference between what you have in the current working directory and what has been committed
+
+Git add . = Adds all modified files to staging
+
+Git checkout = Restores previous file version
+
+Git commit —amend -m “” = Amend commit notes
+
+Git branch -d (branch name) = To delete a branch 
