@@ -40,3 +40,4 @@ Git commit —amend -m “” = Amend commit notes
 
 Git branch -d (branch name) = To delete a branch 
 
+git branch -M "name of branch" = Changes current branch name 
