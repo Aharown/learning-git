@@ -39,3 +39,4 @@ Git checkout = Restores previous file version
 Git commit —amend -m “” = Amend commit notes
 
 Git branch -d (branch name) = To delete a branch 
+

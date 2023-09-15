@@ -1,0 +1,5 @@
+VSCODE COMMANDS
+https://code.visualstudio.com/docs/getstarted/tips-and-tricks
+
+command + shift + p to open command palette 
+
