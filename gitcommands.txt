@@ -36,6 +36,8 @@ Git add . = Adds all modified files to staging
 
 Git checkout = Restores previous file version
 
+Git checkout -b (name of branch) = Create branch and switch to it
+
 Git commit —amend -m “” = Amend commit notes
 
 Git branch -d (branch name) = To delete a branch 
