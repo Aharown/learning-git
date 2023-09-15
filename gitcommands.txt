@@ -39,3 +39,7 @@ Git checkout = Restores previous file version
 Git commit —amend -m “” = Amend commit notes
 
 Git branch -d (branch name) = To delete a branch 
+
+Git branch -M "name of branch" = Changes current branch name 
+
+Git fetch (name of branch) = will allow you to fetch a branch from a remote repo to a local repo
