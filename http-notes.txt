@@ -3,6 +3,9 @@ HTTP?
 HTTP <Hyper Text Transfer Protocol> is an application/abstraction layer meaning that it’s tasked with specifying the communication protocols between hosts <devices connected to a computer network> in a network.
 It’s especially important in transmitting hypermedia docs like HTML docs which are the infrastructure/framework of all web pages.
 HTTP functions on a client server model - with the client being the web browser making a request to the server regarding a web page and then awaiting a response from that server pertaining to information for the webpage.
+HTTP is known as a “stateless protocol”, meaning that it doesn’t hold any session state data between requests.
+Examples of stateless protocols include IP <Internet Protocol> which is the foundation of the internet and HTTP <Hyper Text Transfer Protocol> which is the foundation of the WWW since this is how Hypermedia docs like HTML docs are transmitted between devices.
+HTML docs are the foundation of the WWW. 
 
 API?
 
@@ -25,9 +28,21 @@ HTTP REQUESTS
 
 HTTP requests are like messages that a computer or device sends to a website or server. 
 Essentially when a HTTP request is made, the device is either asking the server for info or telling the server or website to do something, updating information, giving information, or removing something.
+
 There are different types of HTTP request:
 GET REQUESTS: A GET request is a HTTP request pertaining to getting information from a server or website. After a GET request is sent, the webpage or server then sends the information to the computer or device.
 POST REQUESTS: This is like giving information. This HTTP request pertains to the user giving data to a website, like leaving a comment or submitting a form. When one does this, a HTTP POST request is sent with the info to the site.
  PUT REQUESTS: A HTTP PUT request pertains to when a user wants      to update information. If there is a drawing on a website for example and you want to change the colour, you can send a PUT request to change that colour.
  DELETE REQUESTS: A HTTP DELETE request pertains to when a user wants to delete a file or something from a website. A DELETE request will be sent from the computer to the server/site to remove the file.
  PATCH REQUESTS: A HTTP PATCH request is used to update or modify existing information rather than replacing or changing the entire thing. The PATCH request made is only making a small change to an existing resource like updating a phone number on a website.
+
+
+ HTTP STATUS CODES
+
+ HTTP response access codes indicate whether a particular HTTP request has been successfully completed. HTTP response status codes are grouped in 5. 
+ 1. Informational responses (100-199)
+ 2. Successful responses (200-299) If you see 200-299, you're all good
+ 3. Redirection messages (300-399) You'll see a redirection message if the webpage has moved 301
+ 4. Client error responses (400-499) The server cannot process the request due to something that would be considered a client issue (bad syntax)
+ 5. Server error messages (500-599) The client cannot process the request due to something that is considered a server issue 
+
