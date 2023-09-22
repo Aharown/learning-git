@@ -1,0 +1,19 @@
+{
+    "Name": "Aaron",
+    "Age": 27,
+    "Birthplace": "University College Hospital",
+    "Hobbies": ["gaming", "watching films", "poetry", "training", "reading"],
+      "Games": ["Tekken","Street Fighter", "Mortal Kombat", "Final Fantasy", "Metal Gear Solid"],
+      "Films": ["The Godfather Part 2", "Crouching Tiger Hidden Dragon", "Get Out", "Love Exposure", "Boyz n The Hood"],
+      "Poets": ["Pablo Neruda", "Akala", "Nas", "Mr Reed", "E.E Cummings"],
+      "Training": ["Muay Thai", "Calisthenics", "Weights"],
+      "Reading": ["Black Athena", "48 Laws of Power", "Bible", "Ancient and Modern Britons", "Plato Republic"],
+    "Interests": ["Philosophy", "History", "tech", "culture", "Psychology", "Religions"],
+      "Philosophers": ["Aristotle", "Plato", "Kant", "Isaiah Berlin", "David Hume"],
+      "History": ["Semitic civilisation", "Ancient Greek", "Ancient Phoencian", "British Isles 1600s-1800s", "Ancient Ghana/Mali Empire"],
+      "Tech": ["Programming", "Cybernetics", "IoT", "SMART tech", "Cryptocurrency"],
+      "Culture": ["West African", "Levantine", "Classical civilisations", "East Asian"],
+      "Religions": ["Abrahamic", "Buddhism", "New Age", "Masonry"],
+    "isProgrammer": true
+
+}
