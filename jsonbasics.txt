@@ -1,0 +1,34 @@
+JSON: WHAT IS IT?
+
+
+JSON (JAVA SCRIPT OBJECT NOTATION) is a data representation format. Another example of a data representation format would be XML.
+JSON is commonly used in APIs across the web as well as configs 
+
+
+WHY IS JSON POPULAR?
+
+-JSON is extremely lightweight meaning that the file sizes are easy to send. 
+
+-Easier to read compared to XLM.
+
+-Integrates very well with JS.
+
+-All major languages have built in functionality to parse JSON strings into objects or classes in that language.
+
+
+JSON TYPES:
+
+Strings - A combination of alphabetical characters (“Hello world”)
+Numbers - Can all types (1, 12334, 1.5, -30)
+Null - Nothing
+Arrays - JSON array represents ordered list of values. JSON array can store multiple values. It can store string, number, boolean or object in JSON array.[1, 2, 3] [Hello world]
+Booleans - True or false
+Objects - Allow you to represent values that are “key value pairs” {key:value} {age:30}. Objects can be stored within an array. You can also nest objects within objects.
+
+
+
+JSON FILES:
+
+Typically in JSON, we’ll have an array or an object at the top of our file.
+Then inside of that array or object, we'll have other values. 
+*Remember it’s important to put commas between all the values in an array when writing JSON.
